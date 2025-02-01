@@ -24,7 +24,6 @@ def preprocess_text(text):
     padded_review = sequence.pad_sequences([encoded_review], maxlen=500)
     return padded_review
 
-
 import streamlit as st
 ## streamlit app
 # Streamlit app
